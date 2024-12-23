@@ -5,7 +5,7 @@ import Scene from './components/models/scene'
 
 export default function Home() {
   return (
-    <div  className='relative bg-gradient-to-bl from-[#411e2ee3] font-funnel-sans from-[-120%] to-[#361224]  flex flex-col'>
+    <div  className='relative h-[200vh] bg-gradient-to-bl from-[#411e2ee3] font-funnel-sans from-[-120%] to-[#361224]  flex flex-col'>
       <div className='px-4 py-3 flex items-center justify-between text-white'>
         <div className='flex items-center gap-2'>
           <div className='text-[20px] font-semibold font-funnel-sans'>Happy Seats</div>
@@ -18,12 +18,11 @@ export default function Home() {
         </div>
         <div className='px-3 py-2 bg-gradient-to-b from-white/10 to-white/15 rounded-full cursor-pointer '>Open Account</div>
       </div>
-      <div className="w-full h-screen flex  justify-between">
-        <div className='flex flex-col items-center gap-10 mt-[280px] pl-[230px]'>
-          <div className='text-[52px]  text-center text-[#F5F5DC] font-funnel-sans'>Your sofa, your rules. <br /> Design your dream seat</div>
-         
+      <div className="relative w-full h-screen flex  justify-between">
+        <div className=' absolute  flex flex-col w-1/3 items-center gap-10 mt-[380px]  pl-[230px]'>
+          <div className='text-[48px]  text-center text-[#F5F5DC] font-funnel-sans'>Your sofa, your rules. <br /> Design your dream seat</div>
         </div>
-        <div className='w-[480px] h-[300px] scale-x-[0.9] px-5 py-5 absolute flex flex-col items-start gap-4 right-[260px] top-[150px] rounded-t-3xl bg-gradient-to-b from-white/10  to-transparent to-[60%]'>
+        <div className='w-[480px] h-[300px] scale-x-[0.9] px-5 py-5 absolute flex flex-col items-start gap-4 right-[400px] top-[150px] rounded-t-3xl bg-gradient-to-b from-white/10  to-transparent to-[60%]'>
             <div className='px-5 py-1 bg-gradient-to-b from-white/10 to-white/15  rounded-full text-[#f7f7e6b7] font-extralight  text-[14px] leading-3 shadow'>Happy Seats</div>
             <div className='flex items-center justify-between w-full'>
               <div className='text-[16px] text-[#f7f7e6b7] font-light'>Your sofa, your style <br />Let's design a cozy escape.</div>
